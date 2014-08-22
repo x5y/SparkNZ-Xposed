@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@id/layout_top" android:background="@drawable/states" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <nz.co.telecom.smartphone.widget.stickyheaders.CompatibleStickyListHeadersListView android:id="@id/myusage_contents" android:background="@color/White" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
-    <include android:id="@id/content_myusage_progressbar" android:visibility="gone" layout="@layout/progress_block" />
-    <include android:id="@id/content_myusage_no_data_error" android:visibility="gone" layout="@layout/no_data_error" />
-</RelativeLayout>

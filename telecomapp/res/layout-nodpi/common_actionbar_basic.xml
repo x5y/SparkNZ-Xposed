@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <nz.co.telecom.smartphone.widget.TMYTextView android:textSize="@dimen/FontSize16" android:textColor="@color/White" android:gravity="center" android:id="@id/content_frame_top_actionbar_offline" android:background="@color/Black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/offline" android:layout_alignParentTop="true" />
-    <RelativeLayout android:id="@id/content_frame_top_actionbar" android:background="@drawable/actionbar_bg" android:layout_width="fill_parent" android:layout_height="@dimen/HeightWidthPaddingMarginSize050" android:layout_below="@id/content_frame_top_actionbar_offline">
-        <nz.co.telecom.smartphone.widget.TMYBoldTextView android:textSize="@dimen/FontSize22" android:textColor="@color/White" android:id="@id/content_frame_top_actionbar_center_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_name" android:layout_centerInParent="true" />
-    </RelativeLayout>
-</RelativeLayout>

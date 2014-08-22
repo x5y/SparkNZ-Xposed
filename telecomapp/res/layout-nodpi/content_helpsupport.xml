@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@id/layout_top" android:background="@color/White" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <WebView android:id="@id/help_and_support_WebView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <include android:id="@id/help_and_support_progressbar" android:visibility="gone" layout="@layout/progress_block" />
-    <include android:id="@id/help_and_support_no_data_error" android:visibility="gone" layout="@layout/no_data_error" />
-</RelativeLayout>

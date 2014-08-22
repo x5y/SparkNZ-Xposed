@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:paddingLeft="@dimen/HeightWidthPaddingMarginSize008" android:paddingRight="@dimen/HeightWidthPaddingMarginSize008" android:paddingBottom="@dimen/HeightWidthPaddingMarginSize008" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <nz.co.telecom.smartphone.widget.TMYButton android:textSize="@dimen/FontSize18" android:textColor="@drawable/skyblue_btn_text_color" android:id="@id/item_content_plandetails_action_button" android:background="@drawable/skyblue_btn" android:paddingLeft="@dimen/HeightWidthPaddingMarginSize008" android:paddingRight="@dimen/HeightWidthPaddingMarginSize008" android:layout_width="wrap_content" android:layout_height="@dimen/HeightWidthPaddingMarginSize032" android:text="Testing" android:layout_alignParentRight="true" />
-</RelativeLayout>

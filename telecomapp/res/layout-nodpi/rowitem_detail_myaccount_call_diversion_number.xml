@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@color/White" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <nz.co.telecom.smartphone.widget.TMYEditText android:textSize="24.0sp" android:textColor="@color/AppTextColor" android:id="@id/item_content_myaccount_call_diversion_number" android:background="@drawable/normal_edit_text_background" android:paddingLeft="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/HeightWidthPaddingMarginSize006" android:layout_marginTop="@dimen/HeightWidthPaddingMarginSize006" android:layout_marginRight="@dimen/HeightWidthPaddingMarginSize006" android:layout_marginBottom="@dimen/HeightWidthPaddingMarginSize012" android:hint="@string/h_mobile_no" android:ems="10" android:singleLine="true" android:maxLength="14" android:inputType="phone" android:imeOptions="actionDone" />
-</LinearLayout>

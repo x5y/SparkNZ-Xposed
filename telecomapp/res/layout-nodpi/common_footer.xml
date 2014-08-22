@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@id/content_frame_bottom_footer_layout" android:background="@color/TermsAndConditionsBgColor" android:layout_width="fill_parent" android:layout_height="@dimen/HeightWidthPaddingMarginSize044"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <nz.co.telecom.smartphone.widget.TMYTextView android:gravity="center_vertical" android:autoLink="web" android:linksClickable="true" android:id="@id/content_frame_bottom_footer_text" android:paddingTop="@dimen/HeightWidthPaddingMarginSize006" android:paddingBottom="@dimen/HeightWidthPaddingMarginSize006" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/HeightWidthPaddingMarginSize006" android:text="@string/footer" android:layout_centerVertical="true" style="@style/WhiteText.Size18" />
-</RelativeLayout>

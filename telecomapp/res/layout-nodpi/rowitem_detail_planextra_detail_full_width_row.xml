@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <nz.co.telecom.smartphone.widget.TMYTextView android:textSize="@dimen/FontSize14" android:textColor="@color/PlanExtrasPlanTitleColor" android:id="@id/item_content_details_tablelayout_full_width" android:padding="@dimen/HeightWidthPaddingMarginSize002" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-</LinearLayout>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@color/DisclaimerBgColor" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <nz.co.telecom.smartphone.widget.TMYTextView android:textSize="@dimen/usageMeter_disclaimer_heading_size" android:textColor="@color/DisclaimerTitleColor" android:padding="@dimen/HeightWidthPaddingMarginSize008" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/usage_disclaimer_heading" />
-    <nz.co.telecom.smartphone.widget.TMYTextView android:textSize="@dimen/usageMeter_disclaimer_content_size" android:textColor="@color/DisclaimerTextColor" android:paddingLeft="@dimen/HeightWidthPaddingMarginSize008" android:paddingRight="@dimen/HeightWidthPaddingMarginSize008" android:paddingBottom="@dimen/HeightWidthPaddingMarginSize008" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/usage_disclaimer_content" />
-    <LinearLayout android:orientation="vertical" android:id="@id/item_usage_terms_conditions_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-</LinearLayout>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@id/item_content_extra_component_content" android:background="@color/White" android:layout_width="fill_parent" android:layout_height="@dimen/HeightWidthPaddingMarginSize068"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="horizontal" android:background="@color/RowDividerColor" android:layout_width="fill_parent" android:layout_height="@dimen/HeightWidthPaddingMarginSize001" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
-    <nz.co.telecom.smartphone.widget.TMYBoldTextView android:textSize="@dimen/FontSize16" android:textColor="@color/AppTextColor" android:id="@id/item_extra_component_icon_right_description" android:padding="@dimen/HeightWidthPaddingMarginSize008" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="PO Bundle 1 Voice" android:layout_centerVertical="true" />
-</RelativeLayout>

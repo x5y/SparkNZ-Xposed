@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:id="@id/header_message_block_all_messages_layout" android:background="@drawable/warning_border_background" android:padding="@dimen/HeightWidthPaddingMarginSize008" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <nz.co.telecom.smartphone.widget.TMYBoldTextView android:textSize="@dimen/FontSize24" android:textColor="@color/WarningBoxTitleColor" android:gravity="center_horizontal" android:id="@id/header_message_block_all_messages_title" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-    <nz.co.telecom.smartphone.widget.TMYTextView android:textSize="@dimen/FontSize16" android:textColor="@color/WarningBoxTextColor" android:gravity="center_horizontal" android:id="@id/header_message_block_all_messages_content" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-</LinearLayout>

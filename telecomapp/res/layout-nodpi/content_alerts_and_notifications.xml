@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@id/layout_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:windowSoftInputMode="adjustResize"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ListView android:id="@id/alerts_and_notifications_contents" android:background="@color/White" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@android:color/transparent" android:divider="@color/White" android:dividerHeight="@dimen/Pixel001" android:isScrollContainer="true" />
-    <include android:id="@id/content_alerts_and_notifications_progressbar" android:visibility="gone" layout="@layout/progress_block" />
-    <include android:id="@id/content_alerts_and_notifications_no_data_error" android:visibility="gone" layout="@layout/no_data_error" />
-</RelativeLayout>

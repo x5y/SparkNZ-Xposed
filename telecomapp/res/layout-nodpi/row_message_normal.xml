@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/HeightWidthPaddingMarginSize004" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="vertical" android:id="@id/row_message_layout" android:background="@drawable/message_block_info_border" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <nz.co.telecom.smartphone.widget.TMYBoldTextView android:textSize="@dimen/FontSize20" android:textColor="@color/SuccessBoxTitleColor" android:gravity="center_horizontal" android:id="@id/row_message_header" android:background="@color/White" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-        <nz.co.telecom.smartphone.widget.TMYTextView android:textSize="@dimen/FontSize18" android:textColor="@color/SuccessBoxTextColor" android:gravity="center_horizontal" android:id="@id/row_message_content" android:background="@color/White" android:paddingBottom="@dimen/HeightWidthPaddingMarginSize004" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-    </LinearLayout>
-    <ImageView android:id="@id/dummy_again" android:layout_width="fill_parent" android:layout_height="@dimen/Pixel001" android:contentDescription="@string/dummy" />
-</LinearLayout>
