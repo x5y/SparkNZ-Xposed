@@ -1,0 +1,26 @@
+{
+    "usageMeter":
+	{
+		"title": "ROAMING DATA USAGE",
+		"usageLabel": "$50 used",
+		"remainingLabel": "$450 left",
+		"amountUsed": 50,
+		"cap": 500
+	},
+
+	"termsAndConditions":"When you travel overseas you can still access the internet as much or little as you like.\nSet an amount to spend. When you reach that amount we'll pause your internet and send you text letting you know.",
+
+	"overseasUsageOptions": [0, 50, 150, 250, 500, -1],
+	"overseasUsageOptionSelected": 500,
+
+	"previousPeriodEndLabel":"Date of last Smart cap change",
+    "previousPeriodEnd":"2013-03-12T04:10:20.000+0000",
+
+    "periodEndLabel":"Next Smart cap reset date",
+    "periodEnd":"2013-04-12T04:10:20.000+0000",
+
+	"_links": {"self":{"href": "line/overseasusage"},
+		"viewamounts":{"title":"> View overseas data amounts", "href":"http://www.telecom.co.nz"}, 
+		"turnon": {"title":"Turn On", "href":"overseasusage/turnon{?usageValue}"}
+	}
+}

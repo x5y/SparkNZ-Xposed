@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/White" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/progress_large" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateDrawable="@drawable/progress_circular_color" android:layout_centerInParent="true" style="?android:attr/progressBarStyleLarge" />
+    <nz.co.telecom.smartphone.widget.TMYTextView android:textSize="18.0sp" android:textColor="@color/ProgressGreyTextColor" android:id="@id/progress_block_TV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/retrieving_data" android:layout_below="@id/progress_large" android:layout_centerHorizontal="true" />
+</RelativeLayout>

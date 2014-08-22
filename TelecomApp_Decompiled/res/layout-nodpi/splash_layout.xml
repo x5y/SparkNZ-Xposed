@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/splash_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/splash_layout_progressbar_telecom_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/login_spark_logo" android:layout_centerInParent="true" android:contentDescription="@string/dummy" />
+    <ProgressBar android:id="@id/splash_layout_progressbar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/HeightWidthPaddingMarginSize015" android:indeterminateDrawable="@drawable/progress_circular_white" android:layout_below="@id/splash_layout_progressbar_telecom_logo" android:layout_centerInParent="true" />
+    <nz.co.telecom.smartphone.widget.TMYTextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/splash_version_build_display" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="splashversiondisplay" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

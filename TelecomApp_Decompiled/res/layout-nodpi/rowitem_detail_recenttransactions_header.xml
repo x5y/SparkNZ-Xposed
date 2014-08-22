@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#00ff0000" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/item_header_common_layout" android:background="@color/SectionBackgroundColor" android:layout_width="fill_parent" android:layout_height="@dimen/HeightWidthPaddingMarginSize043">
+        <nz.co.telecom.smartphone.widget.TMYBoldTextView android:textSize="@dimen/FontSize18" android:textColor="@color/AppTextColor" android:gravity="center" android:id="@id/recenttransactions_header_left" android:paddingRight="@dimen/HeightWidthPaddingMarginSize006" android:layout_width="@dimen/HeightWidthPaddingMarginSize080" android:layout_height="wrap_content" android:text="@string/recenttransactions_header_right" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/recenttransactions_header_line" android:background="@color/RowDividerColor" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/HeightWidthPaddingMarginSize006" android:layout_marginRight="@dimen/HeightWidthPaddingMarginSize006" android:layout_toRightOf="@id/recenttransactions_header_left" />
+        <nz.co.telecom.smartphone.widget.TMYBoldTextView android:textSize="@dimen/FontSize18" android:textColor="@color/AppTextColor" android:gravity="left" android:id="@id/recenttransactions_header_right" android:paddingLeft="@dimen/HeightWidthPaddingMarginSize006" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/recenttransactions_header_left" android:layout_toRightOf="@id/recenttransactions_header_line" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

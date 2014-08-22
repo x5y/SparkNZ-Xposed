@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/one_menu_master" android:background="@drawable/menu_item_background" android:layout_width="fill_parent" android:layout_height="@dimen/HeightWidthPaddingMarginSize060" android:layout_alignParentLeft="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <nz.co.telecom.smartphone.widget.TMYBoldTextView android:textSize="@dimen/FontSize20" android:textColor="@color/White" android:gravity="center_vertical" android:id="@id/one_menu_text" android:paddingLeft="@dimen/HeightWidthPaddingMarginSize008" android:layout_width="fill_parent" android:layout_height="@dimen/HeightWidthPaddingMarginSize040" android:text="Testing Menu" android:drawablePadding="@dimen/HeightWidthPaddingMarginSize008" android:layout_centerVertical="true" />
+    <CheckBox android:id="@id/one_menu_check_box" android:paddingRight="@dimen/HeightWidthPaddingMarginSize008" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@xml/custom_checkbox" android:text="" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

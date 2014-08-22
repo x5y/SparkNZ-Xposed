@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/welcome_main_main_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ex="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/welcome_splash_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/splash_layout" />
+    <ScrollView android:id="@id/welcomeScrollContainer" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <RelativeLayout android:id="@id/welcomeLayoutTopContainer" android:background="@color/White" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <view android:id="@id/top_pink_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" ex:direction="widthToHeight" ex:ratio="0.53125" class="nz.co.telecom.smartphone.widget.ProportionalLayout">
+                <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/login_header" />
+            </view>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/layout_mobile_number" android:paddingLeft="20.0dip" android:paddingTop="6.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_below="@id/top_pink_layout">
+                <nz.co.telecom.smartphone.widget.TMYEditText android:textSize="@dimen/FontSize24" android:textColor="@color/EditTextTextColor" android:textColorHint="@color/EditTextHintColor" android:id="@id/welcome_main_mobile_no_ET" android:background="@drawable/edit_text_background" android:paddingLeft="@dimen/HeightWidthPaddingMarginSize008" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/h_mobile_no" android:maxLength="14" android:drawableLeft="@drawable/welcome_phone_icon" android:drawablePadding="@dimen/HeightWidthPaddingMarginSize008" android:inputType="phone" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/layout_password" android:paddingLeft="20.0dip" android:paddingTop="6.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_below="@id/layout_mobile_number">
+                <nz.co.telecom.smartphone.widget.TMYEditText android:textSize="@dimen/FontSize24" android:textColor="@color/EditTextTextColor" android:textColorHint="@color/EditTextHintColor" android:id="@id/welcome_main_password_ET" android:background="@drawable/edit_text_background" android:paddingLeft="@dimen/HeightWidthPaddingMarginSize008" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/h_password" android:drawableLeft="@drawable/welcome_key_icon" android:drawablePadding="@dimen/HeightWidthPaddingMarginSize008" android:inputType="textPassword" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/welcome_buttons_layout" android:paddingLeft="20.0dip" android:paddingTop="@dimen/HeightWidthPaddingMarginSize006" android:paddingRight="20.0dip" android:paddingBottom="@dimen/HeightWidthPaddingMarginSize006" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/layout_password">
+                <nz.co.telecom.smartphone.widget.TMYButton android:id="@id/welcome_signin_btn" android:text="@string/b_signin" android:layout_weight="1.0" style="@style/SigninButton" />
+                <ImageView android:id="@id/welcome_dummy_center" android:layout_width="@dimen/HeightWidthPaddingMarginSize020" android:layout_height="@dimen/HeightWidthPaddingMarginSize002" />
+                <nz.co.telecom.smartphone.widget.TMYButton android:id="@id/welcome_register_btn" android:text="@string/b_register" android:layout_weight="1.0" style="@style/RegisterButton" />
+            </LinearLayout>
+            <RelativeLayout android:background="@color/WelcomeBotBgColor" android:padding="@dimen/HeightWidthPaddingMarginSize020" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/welcome_buttons_layout" android:layout_alignParentBottom="true">
+                <nz.co.telecom.smartphone.widget.TMYTextView android:textSize="@dimen/FontSize20" android:textColor="@drawable/text_link_color" android:autoLink="all" android:linksClickable="true" android:id="@id/welcome_main_forgot_password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/h_forgot_password" android:drawableLeft="@drawable/blue_chevron" android:drawablePadding="@dimen/HeightWidthPaddingMarginSize008" />
+            </RelativeLayout>
+            <ProgressBar android:id="@id/welcome_progress_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/retrieving_data" android:layout_centerInParent="true" style="?android:attr/progressBarStyleSmall" />
+            <include android:id="@id/content_no_data_error" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/no_data_error" />
+            <nz.co.telecom.smartphone.widget.TMYTextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/version_build_display" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="versiondisplay" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

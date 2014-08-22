@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/HeightWidthPaddingMarginSize004" />
+    <stroke android:width="@dimen/HeightWidthPaddingMarginSize001" android:color="@color/SuccessBoxBorderColor" />
+    <solid android:color="@color/SuccessBoxFillColor" />
+</shape>

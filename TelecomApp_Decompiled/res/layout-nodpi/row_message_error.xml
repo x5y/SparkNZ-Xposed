@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/White" android:paddingBottom="@dimen/HeightWidthPaddingMarginSize004" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/row_message_layout" android:background="@drawable/warning_border_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/HeightWidthPaddingMarginSize012">
+        <nz.co.telecom.smartphone.widget.TMYBoldTextView android:textSize="@dimen/FontSize24" android:textColor="@color/WarningBoxTitleColor" android:gravity="center" android:id="@id/row_message_header" android:paddingTop="@dimen/HeightWidthPaddingMarginSize008" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <nz.co.telecom.smartphone.widget.TMYTextView android:textSize="@dimen/FontSize16" android:textColor="@color/WarningBoxTextColor" android:gravity="center" android:id="@id/row_message_content" android:padding="@dimen/HeightWidthPaddingMarginSize008" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ImageView android:id="@id/dummy_again" android:layout_width="fill_parent" android:layout_height="@dimen/Pixel001" android:contentDescription="@string/dummy" />
+</LinearLayout>

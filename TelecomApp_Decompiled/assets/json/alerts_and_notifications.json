@@ -1,0 +1,55 @@
+
+{
+    "alerts":
+    {
+        "heading":"YOUR CURRENT ALERTS",
+        "alerts":[
+            {"alertTitle":"Data", "alertText":"some text about Data alert", "isAlertOn":"true",
+             "_links": {"self": {"href": "/line/alertsandnotifications"},
+                        "turnon": {"title": "Turn On","href": "/alertsandnotifications/turnon?alertId=SOME_ALERT_ID" },
+                        "turnoff": {"title": "Turn Off","href": "/alertsandnotifications/turnoff?alertId=SOME_ALERT_ID"}}
+            },
+
+            {"alertTitle":"Text", "alertText":"some text about Text alert", "isAlertOn":"true",
+             "_links": {"self": {"href": "/line/alertsandnotifications"},
+                        "turnon": {"title": "Turn On","href": "/alertsandnotifications/turnon?alertId=SOME_ALERT_ID"},
+                        "turnoff": {"title": "Turn Off","href": "/alertsandnotifications/turnoff?alertId=SOME_ALERT_ID" }}
+            },
+
+            {"alertTitle":"Calls", "alertText":"some text about alert Calls alert", "isAlertOn":"false",
+             "_links": {"self": {"href": "/line/alertsandnotifications"},
+                        "turnon": {"title": "Turn On","href": "/alertsandnotifications/turnon?alertId=SOME_ALERT_ID" },
+                        "turnoff": {"title": "Turn Off","href": "/alertsandnotifications/turnoff?alertId=SOME_ALERT_ID"}}
+            },
+
+            {"alertTitle":"Overseas Roaming", "alertText":"some text about Overseas roaming alert", "isAlertOn":"false",
+
+             "_links": {"self": {"href": "/line/alertsandnotifications"},
+                        "turnon": {"title": "Turn On","href": "/alertsandnotifications/turnon?alertId=SOME_ALERT_ID" },
+                        "turnoff": {"title": "Turn Off","href": "/alertsandnotifications/turnoff?alertId=SOME_ALERT_ID" }}
+            }
+        ]
+    },
+
+    "notifications": {
+        "heading":"NOTIFICATIONS YOU WILL RECEIVE",
+        "notifications":[
+            {"notificationTitle":"Low Balance", "notificationText":"some text about a low balance notification"},
+            {"notificationTitle":"Purchasing and Managing Extras", "notificationText":"some notification text about how to purchase and manage extras"}
+        ]
+    },
+
+    "alternativePhone" : {
+        "heading":"ALTERNATIVE MOBILE NUMBER",
+        "fieldLabel":"Do you want another Telecom mobile to receive these texts?",
+        "mobileNumber":"0272113907",
+        "isActivated":"true",
+
+        "_links": {"self": {"href": "/line/alertsandnotifications"},
+                   "setmobilenumber": {"title": "Set Alternate Mobile Number","href": "/alertsandnotifications/alternatemobilenumberset{?alternateMobileNumber}"},
+                   "turnon": {"title": "Turn On","href": "/alertsandnotifications/alternatemobileon"},
+                   "turnoff": {"title": "Turn Off","href": "/alertsandnotifications/alternatemobileoff"}}
+
+
+    }
+}

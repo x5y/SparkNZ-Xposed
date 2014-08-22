@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/item_content_layout" android:background="@color/White" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/warning_border_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="4.0dip">
+        <nz.co.telecom.smartphone.widget.TMYBoldTextView android:textSize="18.0sp" android:textColor="@color/WarningBoxTitleColor" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:layout_marginTop="6.0dip" android:text="@string/recenttransactions_noitems" />
+    </LinearLayout>
+</LinearLayout>

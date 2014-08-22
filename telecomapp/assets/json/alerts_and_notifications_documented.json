@@ -1,0 +1,88 @@
+
+{
+    <!-- top level object for customer alerts -->
+    "alerts":
+    {
+        "heading":"YOUR CURRENT ALERTS", <!-- the heading text displayed within the first section -->
+
+        <!-- array of alerts for which the customer may or may not received, dependant upon the isAlertOn field -->
+        "alerts":[
+
+            <!-- Top level alert object -->
+            {"alertTitle":"Data", <!-- the text to be displayed with the row heading text field for this alert -->
+            "alertText":"some text about Data alert", <!-- the text to be displayed within the row text field for this alert -->
+            "isAlertOn":"true", <!-- true if the customer has elected to receive this alert -->
+
+            <!-- HAL formatted links -->
+             "_links": {"self": {"href": "/line/alertsandnotifications"},
+
+                        <!-- POST URL for turning this alert on -->
+                        "turnon": {"title": "Turn On","href": "/alertsandnotifications/turnon?alertId=SOME_ALERT_ID" },
+
+                        <!-- POST URL for turning this alert off -->
+                        "turnoff": {"title": "Turn Off","href": "/alertsandnotifications/turnoff?alertId=SOME_ALERT_ID"}}
+            },
+
+            <!-- As above for Top level alert object -->
+            {"alertTitle":"Text", "alertText":"some text about Text alert", "isAlertOn":"true",
+             "_links": {"self": {"href": "/line/alertsandnotifications"},
+                        "turnon": {"title": "Turn On","href": "/alertsandnotifications/turnon?alertId=SOME_ALERT_ID"},
+                        "turnoff": {"title": "Turn Off","href": "/alertsandnotifications/turnoff?alertId=SOME_ALERT_ID" }}
+            },
+
+            {"alertTitle":"Calls", "alertText":"some text about alert Calls alert", "isAlertOn":"false",
+             "_links": {"self": {"href": "/line/alertsandnotifications"},
+                        "turnon": {"title": "Turn On","href": "/alertsandnotifications/turnon?alertId=SOME_ALERT_ID" },
+                        "turnoff": {"title": "Turn Off","href": "/alertsandnotifications/turnoff?alertId=SOME_ALERT_ID"}}
+            },
+
+            {"alertTitle":"Overseas Roaming", "alertText":"some text about Overseas roaming alert", "isAlertOn":"false",
+
+             "_links": {"self": {"href": "/line/alertsandnotifications"},
+                        "turnon": {"title": "Turn On","href": "/alertsandnotifications/turnon?alertId=SOME_ALERT_ID" },
+                        "turnoff": {"title": "Turn Off","href": "/alertsandnotifications/turnoff?alertId=SOME_ALERT_ID" }}
+            }
+        ]
+    },
+
+    "notifications": <!-- top level object for customer notications -->
+    {
+        "heading":"NOTIFICATIONS YOU WILL RECEIVE", <!-- text to be display in the section header -->
+
+        <!-- array of notifications that the customer will receive -->
+        "notifications":[
+
+            <!-- Top level Notification object -->
+            {"notificationTitle":"Low Balance", <!-- the notification title to be displayed within the row heading field for the notification -->
+             "notificationText":"some text about a low balance notification"}, <!-- the notification text to be displayed within the row text field for the notification -->
+
+            <!-- as above for Top level Notification object -->
+            {"notificationTitle":"Purchasing and Managing Extras", <!-- as above -->
+             "notificationText":"some notification text about how to purchase and manage extras"} <!-- as above -->
+        ]
+    },
+
+    <!-- top level object for alternative mobile to which notifications should be sent to -->
+    "alternativePhone" :
+    {
+        "heading":"ALTERNATIVE MOBILE NUMBER", <!-- The heading text displayed in the section header -->
+        "fieldLabel":"Do you want another Telecom mobile to receive these texts?", <!-- label text for checkbox field -->
+        "mobileNumber":"0272113907", <!-- the alternative mobile number as set by the customer -->
+        "isActivated":"true", <!-- true if the customer wishes to use to alternative mobile number above. If true the checkbox in the UI will be checked  -->
+
+       <!--
+           HAL formatted field for extrnal URLs
+           Refer to http://stateless.co/hal_specification.html
+       -->
+        "_links": {"self": {"href": "/line/alertsandnotifications"},
+
+                    <!-- URL of POST for change of alternative mobile number as input by the customer -->
+                   "setmobilenumber": {"title": "Set Alternate Mobile Number","href": "/alertsandnotifications/alternatemobilenumberset{?alternateMobileNumber}"},
+
+                   <!-- URL of POST for when the alternative mobile number is to be used -->
+                   "turnon": {"title": "Turn On","href": "/alertsandnotifications/alternatemobileon"},
+
+                   <!-- URL of POST for when the alternative mobile number is not to be used -->
+                   "turnoff": {"title": "Turn Off","href": "/alertsandnotifications/alternatemobileoff"}}
+    }
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="@dimen/HeightWidthPaddingMarginSize001" android:top="@dimen/HeightWidthPaddingMarginSize003" android:right="@dimen/HeightWidthPaddingMarginSize001" android:bottom="@dimen/HeightWidthPaddingMarginSize003">
+        <shape>
+            <solid android:color="@color/SwitchThumbOnShadowColor" />
+        </shape>
+    </item>
+    <item android:left="@dimen/HeightWidthPaddingMarginSize001" android:top="@dimen/HeightWidthPaddingMarginSize003" android:right="@dimen/HeightWidthPaddingMarginSize001" android:bottom="@dimen/HeightWidthPaddingMarginSize004">
+        <shape>
+            <solid android:color="@color/SwitchThumbOnFillColor" />
+        </shape>
+    </item>
+</layer-list>

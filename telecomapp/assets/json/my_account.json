@@ -1,0 +1,66 @@
+
+{
+    "callManagementSettings":
+    {
+        "heading":"MANAGE YOUR CALL SETTINGS",
+        "callSettings":[
+            {"callSettingTitle":"Caller Id Restriction", "callSettingText":"some text about call restriction", "isSettingOn":"true",
+             "_links": {"self": {"href": "/line/myaccount"},
+                        "turnon": {"title": "Turn On","href": "/myaccount/callsettings/turnon?callSettingId=SOME_CALL_SETTING_ID" },
+                        "turnoff": {"title": "Turn Off","href": "/myaccount/callsettings/turnoff?callSettingId=SOME_CALL_SETTING_ID"}}
+            },
+            {"callSettingTitle":"Call Waiting", "callSettingText":"some text about call waiting", "isSettingOn":"true",
+             "_links": {"self": {"href": "/line/myaccount"},
+                        "turnon": {"title": "Turn On","href": "/myaccount/callsettings/turnon?callSettingId=SOME_CALL_SETTING_ID" },
+                        "turnoff": {"title": "Turn Off","href": "/myaccount/callsettings/turnoff?callSettingId=SOME_CALL_SETTING_ID"}}
+            }
+        ]
+    },
+
+    "callDiversion":
+    {
+        "heading":"USE CALL DIVERSION",
+        "diversionSettings":[
+
+        {"callDiversionTitle":"When you don't answer a call",
+             "selectedOptionId":"1",
+             "diversionOptions": [
+                {"optionId":"0", "optionText":"Send Caller to Voicemail"},
+                {"optionId":"1", "optionText":"Send Caller to this number after", "divertToMobile":"0272113907", "ringOptions":{"selectedValue":"10", "options":[10, 20, 30]}},
+                {"optionId":"2", "optionText":"Do Nothing"}
+             ],
+             "_links": {"self": {"href": "/line/myaccount"},
+                 "update": {"title":"Update","href":"/myaccount/calldiversion/update{?diversionData}"}}
+            },
+
+         {"callDiversionTitle":"When you're on another call",
+             "selectedOptionId":"2",
+             "diversionOptions": [
+                {"optionId":"0", "optionText":"Send Caller to Voicemail"},
+                {"optionId":"1", "optionText":"Send Caller to this number", "divertToMobile":""},
+                {"optionId":"2", "optionText":"Do Nothing"}
+             ],
+             "_links": {"self": {"href": "/line/myaccount"},
+                 "update": {"title":"Update","href":"/myaccount/calldiversion/update{?diversionData}"}}
+            },
+
+         {"callDiversionTitle":"When your phone is switched off",
+             "selectedOptionId":"2",
+             "diversionOptions": [
+                {"optionId":"0", "optionText":"Send Caller to Voicemail"},
+                {"optionId":"1", "optionText":"Send Caller to this number", "divertToMobile":""},
+                {"optionId":"2", "optionText":"Do Nothing"}
+             ],
+             "_links": {"self": {"href": "/line/myaccount"},
+                 "update": {"title":"Update","href":"/myaccount/calldiversion/update{?diversionData}"}}
+            }
+        ]
+    },
+
+    "accountProtection": {
+        "heading":"PROTECTING YOUR ACCOUNT",
+        "accountProtections":[
+            {"protectionTitle":"PUK Code 63123555", "protectionText":"some text about the PUK code for this account protection entry"}
+        ]
+    }
+}
